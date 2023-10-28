@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <form action="/pets" method="POST">
-        <label for="submitter"><h2>showooooo</h2></label>
-    </form> 
+    <h2>Showooo</h2>
+    Pet by pet_id here!
+    <a href="/facts/new"><h4>Add a fun fact!</h4></a>
 </body>
 </html>
 

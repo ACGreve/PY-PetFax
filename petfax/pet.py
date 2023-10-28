@@ -13,3 +13,7 @@ def index():
 @bp.route('/show')
 def new():
     return render_template('pets/show.html')
+
+#@bp.route('/show/:id')
+#def new():
+#    return render_template('pets/show.html')

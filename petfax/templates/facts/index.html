@@ -9,5 +9,16 @@
 
 <body>
     <h1>Thanks for submitting a fun fact!</h1>
+    <body>
+        <div class="container">
+            <H1>UserFax</H1>
+            {% for fact in facts %}
+                <H4>Submitted by {{ fact.submitter }}</H4>
+                {{ fact.fact }}
+            {% endfor %}
+        </div>
+    </body>
+    
+    <a href="/pets"><h4>Look at more pets</h4></a>
 </body>
 </html>
